@@ -10,6 +10,7 @@ import javax.xml.bind.annotation.XmlType;
 
 import bg.government.regixclient.requests.grao.nbd.PersonDataRequest;
 import bg.government.regixclient.requests.grao.pna.PermanentAddressRequest;
+import bg.government.regixclient.requests.mvr.bds.PersonalIdentityInfoRequest;
 
 
 /**
@@ -61,7 +62,7 @@ import bg.government.regixclient.requests.grao.pna.PermanentAddressRequest;
     "signResult",
     "returnAccessMatrix"
 })
-@XmlSeeAlso({PersonDataRequest.class, PermanentAddressRequest.class})
+@XmlSeeAlso({PersonDataRequest.class, PermanentAddressRequest.class,PersonalIdentityInfoRequest.class})
 public class ServiceRequestData {
 
     @XmlElement(name = "Operation")
