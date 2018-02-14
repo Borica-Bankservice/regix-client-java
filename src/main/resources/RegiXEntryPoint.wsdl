@@ -260,7 +260,8 @@
         <wsdl:port name="WSHttpBinding_IRegiXEntryPoint" binding="tns:WSHttpBinding_IRegiXEntryPoint">
             <soap12:address location="https://172.23.105.77/RegiX/RegiXEntryPoint.svc" />
             <wsa10:EndpointReference>
-                <wsa10:Address>https://172.23.105.77/RegiX/RegiXEntryPoint.svc</wsa10:Address>
+              <!--  <wsa10:Address>https://172.23.105.77/RegiX/RegiXEntryPoint.svc</wsa10:Address> -->
+              <wsa10:Address>https://regix-service-test.egov.bg/RegiX/RegiXEntryPoint.svc</wsa10:Address>
             </wsa10:EndpointReference>
         </wsdl:port>
     </wsdl:service>
